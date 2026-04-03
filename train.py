@@ -39,12 +39,12 @@ def train_perceptron(train_images, train_labels, epochs=5, lr=1.0):
                     target = -1
                 score = np.dot(weights[c], x)
 
-            if target * score <= 0:
-                if target == 1:
-                    weights[c] += lr * x
-                else:
-                    weights[c] -= lr * x
-                num_updates += 1
+                if target * score <= 0:
+                    if target == 1:
+                        weights[c] += lr * x
+                    else:
+                        weights[c] -= lr * x
+                    num_updates += 1
         print(f"Epoch {epoch + 1}/{epochs} completed - updates: {num_updates}")
 
     return weights
