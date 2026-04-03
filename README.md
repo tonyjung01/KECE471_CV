@@ -1,6 +1,6 @@
 # KECE471 Computer Vision
 
-This repository contains coursework for **KECE471 Computer Vision**, taught by **Professor Changsoo Kim**.
+This repository contains coursework for **KECE471 Computer Vision** at Korea University, School of Electrical Engineering, taught by **Professor Changsoo Kim**.
 
 ## Assignment3
 
